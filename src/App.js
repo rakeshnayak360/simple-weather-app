@@ -5,7 +5,7 @@ import SearchBox from '../src/components/SearchBox';
 import Result from '../src/components/Result';
 
 const api = {
-  key: 'YOU API',
+  key: 'YOUR_API',
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
