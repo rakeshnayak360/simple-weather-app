@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app{
+  background: #000;
+}
+.weatherBox{
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.weather-temp{
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 0.8em;
+}
+
+.weather-status{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.weather-temp span{
+  font-size: 0.35em;
+  position: absolute;
+  top: 1.5em;
+  line-height: normal;
+}
+
+.date{
+  font-size: 1em;
+  color: #fff;
+  text-shadow: 0 2px 0 rgba(0,0,0,1);
+}
+
+.cityName{
+  color: #fff;
+  text-shadow: 0 3px 0 rgba(0,0,0,1);
+}
+
+.Mainwrapper{
+  min-height: 100vh;
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #000;
+  background-image: url('assets/season1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  transition: 0.3s ease-out;
+}
+
+.Mainwrapper.season1{  background-image: url('assets/season1.jpeg'); }
+.Mainwrapper.season2{  background-image: url('assets/season2.jpeg'); }
+.Mainwrapper.season3{  background-image: url('assets/season3.jpeg'); }
+.Mainwrapper.season4{  background-image: url('assets/season4.jpeg'); }
