@@ -1,6 +1,4 @@
 # simple-weather-app
-
-# Simple Weather App
 Created a simple weather App using ReactJS, Styled Component and third-party weather API.
 
 <a href="https://rakeshnayak360.github.io/simple-weather-app/build/">Live demo</a>
