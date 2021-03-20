@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import '../components/WithResult.css';
 import WeatherExtraInfo from './WeatherExtraInfo';
 import WeatherInfo from './WeatherInfo';
 
