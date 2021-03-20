@@ -5,7 +5,7 @@ import SearchBox from '../src/components/SearchBox';
 import Result from '../src/components/Result';
 
 const api = {
-  key: 'YOUR_API',
+  key: '045d09036418115967201663b13a6a6a',
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
@@ -80,7 +80,6 @@ export class App  extends Component{
             default: 
                 break;
           }
-          console.log(result);
         });
   };
 

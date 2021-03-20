@@ -1,0 +1,25 @@
+.weatherBox{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .weather-temp{
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 0.8em;
+  }
+  
+  .weather-status{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  .weather-temp span{
+    font-size: 0.35em;
+    position: absolute;
+    top: 1.5em;
+    line-height: normal;
+  }
